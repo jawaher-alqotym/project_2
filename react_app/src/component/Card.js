@@ -6,7 +6,7 @@ export default function(prop){
        <img src={prop.cards.img}/>
        <h3 className='title'>{prop.cards.title}</h3>
        <p className='pargraph'>{prop.cards.description}</p>
-       <p><button>اعرف اكثر</button></p>
+       <p><a href={prop.cards.href}>اعرف اكثر</a></p>
     </div>
 
 
