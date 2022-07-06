@@ -32,6 +32,16 @@ img {width:100%;
   padding: 0;
   overflow: hidden;}
 
+.ul_two {
+  border:0px;
+  outline: 0;
+  padding: 0px;
+  color: #007194;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+ }
+
 .ul .li {
   float: left;
   margin-left:1rem;

@@ -9,7 +9,7 @@ export default function(){
       <Navbar className= 'ul' variant="dark" >
         <Container >
           <Nav >
-            <Nav.Link as={Link} to="#" className="li "><span className='a'>Info</span></Nav.Link>
+            <Nav.Link as={Link} to="/info" className="li "><span className='a'>Info</span></Nav.Link>
             <Nav.Link as={Link} to="/Cards" className="li"><span className='a'>Cites</span></Nav.Link>
             <Nav.Link as={Link} to="#" className="li"><span className='a'>Weather</span></Nav.Link>
             <Nav.Link as={Link} to="#"className="li" ><span className='a'>Services</span></Nav.Link>

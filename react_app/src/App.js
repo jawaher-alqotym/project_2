@@ -4,6 +4,7 @@ import Nav from './component/Nav';
 import Card from './component/Card';
 import CardData from './component/CardData'
 import Chat from './component/chat'
+import Details from './component/Details'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -24,15 +25,16 @@ function App() {
 
     <Routes>
      <Route>
-       <Route path='/'></Route>
+       <Route path='/' element={<div className='container_two'>{Cards}</div>}></Route>
        <Route path='/Cards' element={<div className='container_two'>{Cards}</div>}></Route>
+        <Route path='/info' element={<Details/>}></Route>
       </Route>
     </Routes>
     <Chat/>
      <div class="footer">
        <p>@CopyWrite</p>
      </div>
-    <p id='1'></p>
+
    </Router>
 
     </div>);
