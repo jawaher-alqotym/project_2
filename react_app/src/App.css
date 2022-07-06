@@ -4,6 +4,8 @@
    overflow-x: hidden;
  }
 
+.logo { font-weight: bold; }
+
 .container_one {
   width:100%;
   background-color: #964B00;
@@ -23,19 +25,20 @@ img {width:100%;
   transform: translate(-50%, -50%);
   }
 
-ul {
+.ul {
   list-style-type: none;
   color: white;
   margin-top: 1rem;
   padding: 0;
   overflow: hidden;}
 
-li {
+.ul .li {
   float: left;
   margin-left:1rem;
+  text-decoration: none;
 }
 
-li a {
+.ul .li .a {
   display: block;
   text-align: center;
   text-decoration: none;

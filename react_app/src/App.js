@@ -3,6 +3,7 @@ import './App.css';
 import Nav from './component/Nav';
 import Card from './component/Card';
 import CardData from './component/CardData'
+import Chat from './component/chat'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
        <Route path='/Cards' element={<div className='container_two'>{Cards}</div>}></Route>
       </Route>
     </Routes>
+    <Chat/>
      <div class="footer">
        <p>@CopyWrite</p>
      </div>
